@@ -66,49 +66,61 @@
         }
         #banner .item {
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 32px;
+            margin-top: -10px;
         }
         #banner .item h1 {
             font-size: 88px;
+            text-align: center;
+        }
+        #banner .item h1 span{
+            font-size: 99px;
+            text-align: center;
         }
         #banner .item h2 {
             font-size: 75px;
-            ;
+            text-align: center;
         }
         #banner .item h3 {
             font-size: 81px;
+            text-align: center;
+            line-height: 60px;
         }
+        
         #banner .item h3 span br {
             display: inline-block;
         }
         #banner .item h3 p {
-            display: block;
+            display: inline-block;
             font-size: 50px;
             margin: 0;
+            letter-spacing: -1px;
         }
-        #banner .item h3 .cursor {
-            top: 209px;
-            right: 145px;
-            width: 36px;
-        }
+        
         #banner .item .de {
-            display: block !important;
             margin-left: 45px;
         }
+        
         #banner .item h3 .love {
             width: 44px;
             position: absolute;
             top: 18px;
-            left: -3px;
+            left: 11px;
         }
         #banner .item #hover-item {
             display: none;
         }
         #banner .item h3 .cursor {
-            top: 209px;
-            right: 204px;
+            top: 83px;
+            right: 13px;
+            width: 39px;
         }
         #banner .item h3 p {
-            letter-spacing: 1px;
+            letter-spacing: -1px;
         }
         .accordion {
             display: block;
@@ -176,7 +188,7 @@
             margin-top: 53px;
         }
         #tip .item .text h2 {
-            font-size: 20px;
+            font-size: 18px;
             padding-top: 11px;
         }
         #tip .item .text h3 {
@@ -410,7 +422,7 @@
             display: none;
         }
         #banner {
-            margin-top: 0;
+            margin-top: -2px;
             padding-top: 0;
             padding-bottom: 190px;
         }
@@ -825,7 +837,7 @@
             display: none;
         }
         #tip .item {
-            padding: 0px 8px;
+            padding: 0px 10px;
         }
         #tip .titel h1{
             font-weight: 800;
@@ -1297,5 +1309,45 @@
             margin-left: -38px;
         }
     }
+
+    /* extra */
+    /* @media (min-width: 768px) and (max-width: 991px){
+        #tip .item {
+            padding: 0px 18px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        #tip .item {
+            padding: 0px 34px;
+        }
+    }
+
+     @media (min-width: 540px) and (max-width: 720px){
+        #banner .item h3 br{
+            display: block;
+        }
+    }
+    @media (min-width: 412px) and (max-width: 914px){
+        #banner .item h3 .love {
+            width: 44px;
+            position: absolute;
+            top: 18px;
+            left: 47px;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 800px){
+        #banner .item h1 {
+            font-size: 127px !important;
+            color: #fff;
+            line-height: 1;
+            font-weight: 400;
+            letter-spacing: -3px;
+            display: flex;
+        }
+    }
+    */
+    
+    
+    
     
    

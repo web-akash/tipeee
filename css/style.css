@@ -176,7 +176,9 @@ nav .se-flex{
     text-align: justify;
     position: relative;
 }
-
+#banner .item h3 br{
+    display: none;
+}
 #banner .item h3 span {
     color: #000;
 }
