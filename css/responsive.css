@@ -376,7 +376,7 @@
         
     }
     
-    @media (min-width:576px) and (max-width:667px) {
+    @media (min-width:576px) and (max-width:767px) {
         .navbar-toggler:focus {
             box-shadow: none;
         }
@@ -449,6 +449,10 @@
             font-size: 88px;
             text-align: center;
         }
+        #banner .item h1 span {
+            display: block;
+            font-size: 102px;
+        }
         #banner .item h2 {
             font-size: 75px;
             text-align: center;
@@ -493,11 +497,11 @@
             margin-bottom: -19px;
         }
         #banner .item h3 .love {
-            left: 117px;
+            left: 245px;
         }
         #banner .item h3 .cursor {
-            top: 87px;
-            right: 136px;
+            top: 25px;
+            right: 110px;
         }
         #banner .item h3 p {
             letter-spacing: 1px;
@@ -537,9 +541,7 @@
         #tip .hover-item {
             display: none;
         }
-        #tip .item {
-            padding: 0px 24px;
-        }
+        
         #tip .creatorpage .fullpage {
             width: 100%;
         }
@@ -755,9 +757,14 @@
         #banner .item {
             margin: 0;
         }
+       
         #banner .item h1 {
             font-size: 88px;
             text-align: center;
+        }
+        #banner .item h1 span {
+            display: block;
+            font-size: 102px;
         }
         #banner .item h2 {
             font-size: 75px;
@@ -789,9 +796,10 @@
         #banner .item h3 .love {
             width: 44px;
             position: absolute;
-                left: 132px;
-                top: 77px;
+            left: 251px;
+            top: 23px;
         }
+       
         #banner .item #hover-item {
             display: none;
         }
@@ -801,15 +809,20 @@
         #banner .item h3 span {
             display: inline-flex;
         }
-        #banner .item h3 .love {
-            left: 117px;
+        #banner .item h3 {
+            line-height: 67px;
         }
+        
         #banner .item h3 .cursor {
-            top: 24px;
-            right: 89px;
+            top: 35px;
+            right: 12px;
         }
         #banner .item h3 p {
             letter-spacing: -1px;
+            font-size: 51px;
+        }
+        #banner .item h3 br {
+            display: block;
         }
         .accordion {
             display: block;
@@ -1109,9 +1122,11 @@
         #banner .item h3 .love {
             width: 44px;
             position: absolute;
-                left: 132px;
-                top: 77px;
+            left: 250px;
+            top: 27px;
         }
+        
+        
         #banner .item #hover-item {
             display: none;
         }
@@ -1121,13 +1136,8 @@
         #banner .item h3 span {
             display: inline-flex;
         }
-        #banner .item h3 .love {
-            left: 117px;
-        }
-        #banner .item h3 .cursor {
-            top: 24px;
-            right: 197px;
-        }
+
+       
         #banner .item h3 p {
             letter-spacing: -1px;
         }
@@ -1318,6 +1328,248 @@
         #who .item .titel p {
             
         padding-right: 71px;
+        }
+        /* footer part   */
+        #footer-part .item .m-disc {
+            margin-top: 24px;
+            margin-left: -38px;
+        }
+    }
+    @media (min-width:1200px) and (max-width:1399px) {
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        nav ul {
+            background-color: #d64758 !important;
+            padding-top: 52px;
+            position: absolute;
+            top: -96px;
+            left: 155px;
+        }
+        nav ul li a{
+            color: #fff !important;
+        }
+       
+        nav {
+            background-color: #d64758;
+        }
+        nav img {
+            width: 100%;
+        }
+        .navbar-toggler-icon {
+            color: #fff;
+            font-size: 28px;
+        }
+        nav .nav-link {
+            color: #898b8c;
+        }
+        nav ul {
+            background-color: #fff;
+            padding-top: 52px;
+        }
+        nav .nav-item a:hover {
+            color: #898b8c;
+        }
+        .navbar-collapse {
+            position: absolute;
+            top: 76px;
+            left: 0;
+            width: 100%;
+            transition: .4s;
+        }
+        nav .btn {
+            color: #fff;
+            position: none;
+            background-color: #d64758;
+        }
+        nav .btn:hover {
+            color: #fff;
+            position: none;
+            background-color: #d64758;
+        }
+        .nav-link:focus,
+        .nav-link:hover {
+            color: #fff;
+        }
+        nav .nav-link {
+            color: #fff;
+        }
+        nav .se-flex {
+            display: flex;
+            position: absolute;
+            top: -44px;
+            left: 88%;
+            width: 160px;
+            transform: translateX(-50%);
+        }
+        nav .btn {
+            color: #000;
+            position: none;
+            background-color: #fff;
+        }
+        /* =============nav part end */
+        /* =============banner part start */
+        #banner .item video {
+            display: none !important;
+        }
+        #banner .item h2 .wav {
+            display: none;
+        }
+        #banner {
+            margin-top: 0;
+            padding-top: 0;
+            padding-bottom: 190px;
+        }
+        #banner .item {
+            margin: 0;
+        }
+        #banner .item h1 {
+            font-size: 88px;
+            text-align: center;
+        }
+        #banner .item h2 {
+            font-size: 75px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        #banner .item h3 {
+            font-size: 81px;
+            text-align: center;
+        }
+        #banner .item h3 span .de {
+            margin-left: 0;
+        }
+        #banner .item h3 p {
+            display: inline-block;
+            font-size: 65px;
+            margin: 0;
+        }
+        #banner .item h3 .cursor {
+            top: 25px;
+            right: 91px;
+            width: 36px;
+        }
+        
+        #banner .item .de {
+            display: block !important;
+            margin-left: 45px;
+        }
+        #banner .item h3 .love {
+            width: 44px;
+            position: absolute;
+            left: 250px;
+            top: 27px;
+        }
+        
+        
+        #banner .item #hover-item {
+            display: none;
+        }
+        #banner .item h3 span .de {
+            margin-right: 17px;
+        }
+        #banner .item h3 span {
+            display: inline-flex;
+        }
+
+       
+        #banner .item h3 p {
+            letter-spacing: -1px;
+        }
+        .accordion {
+            display: block;
+            margin-top: 240px;
+        }
+        .accordion-button {
+            font-size: 25px;
+            font-weight: 800;
+            line-height: 1;
+            font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .accordion-flush .accordion-item {
+            border-radius: 15px;
+        }
+        .accordion-button:not(.collapsed) {
+            color: #2b2d30;
+            background-color: #fff;
+            box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+        }
+        .accordion-flush .accordion-item .accordion-button {
+            border-radius: 20px;
+        }
+        .accordion-body {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        /* =============banner part end */
+        /* =============tip  part start */
+        #tip {
+            text-align: center;
+        }
+        #tip .titel-sub{
+            display: inline-block;
+        }
+        #tip .hover-item {
+            display: none;
+        }
+       
+        #tip .titel h1{
+            font-weight: 800;
+        }
+        #tip .creatorpage .fullpage {
+            width: 100%;
+        }
+        #tip .accordion-body img {
+            width: 100%;
+        }
+        #tip .accordion-flush .accordion-item:first-child {
+            border-top: 0;
+            margin-top: -200px;
+        }
+        
+        #tip .btn {
+            padding: 16px 67px;
+            margin: 38px;
+        }
+       
+        /* =============tip  part end */
+        /* ====================== */
+
+        /* freedom ============== */
+       
+        /* freedom end ============== 
+
+         /* categories start ============== */
+         #categories {
+             background-color: #eff0f0;
+             text-align: center;
+         }
+        #categories .titel {
+            font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0 ; 
+            line-height: 1;
+            
+        }
+        #categories .titel h1{
+            font-size: 52px;
+            font-weight: 800;
+        }
+        #categories .button {
+            margin: 0;
+            margin-top: 0;
+            display: inline-block;
+            width: 38%;
+            background-color: #fff;
+            margin: 0 auto;
+            margin-top: 33px;
+        }
+        #categories .list-c a img {
+            display: none;
+        }
+        #categories .list-c a {
+            line-height: 105px;
         }
         /* footer part   */
         #footer-part .item .m-disc {
