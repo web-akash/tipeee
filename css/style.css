@@ -405,7 +405,7 @@ position: relative;
     top: 50%;
     left: 114%;
     width: 144%;
-    height: 3px;
+    height: 4px;
     position: absolute;
     background-color: #d64758;
 }
@@ -414,7 +414,7 @@ position: relative;
     content: "";
     top: 50%;
     left: 257%;
-    width: 3px;
+    width: 4px;
     height: 262%;
     position: absolute;
     background-color: #d64758;
