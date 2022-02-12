@@ -632,7 +632,7 @@ position: relative;
 #tip .creatorpage .dis-latext-news h2::before {
     content: "";
     top: -153px;
-    left: 470px;
+    left: 472px;
     width: 4px;
     height: 174px;
     position: absolute;
@@ -644,7 +644,7 @@ position: relative;
 #tip .creatorpage .dis-latext-news span {
     position: absolute;
     top: -156px;
-    left: 466px;
+    left: 467px;
     width: 14px;
     height: 14px;
     background-color: #fff;
