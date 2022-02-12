@@ -1335,7 +1335,7 @@
             margin-left: -38px;
         }
     }
-    @media (min-width:1200px) and (max-width:1399px) {
+    @media (min-width:1200px) and (max-width:1300px) {
         .navbar-toggler:focus {
             box-shadow: none;
         }
@@ -1578,44 +1578,5 @@
         }
     }
 
-    /* extra */
-    /* @media (min-width: 768px) and (max-width: 991px){
-        #tip .item {
-            padding: 0px 18px;
-        }
-    }
-    @media (min-width: 768px) and (max-width: 991px){
-        #tip .item {
-            padding: 0px 34px;
-        }
-    }
-
-     @media (min-width: 540px) and (max-width: 720px){
-        #banner .item h3 br{
-            display: block;
-        }
-    }
-    @media (min-width: 412px) and (max-width: 914px){
-        #banner .item h3 .love {
-            width: 44px;
-            position: absolute;
-            top: 18px;
-            left: 47px;
-        }
-    }
-    @media (min-width: 1280px) and (max-width: 800px){
-        #banner .item h1 {
-            font-size: 127px !important;
-            color: #fff;
-            line-height: 1;
-            font-weight: 400;
-            letter-spacing: -3px;
-            display: flex;
-        }
-    }
-    */
-    
-    
-    
     
    
